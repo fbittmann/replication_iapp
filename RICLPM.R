@@ -1,6 +1,6 @@
 #install.packages("lavaan", dependencies = TRUE)
 require(lavaan)
-mydata <- haven::read_stata('/home/fenris/Seafile/Happiness BMI/Data/DatafileR.dta')
+mydata <- haven::read_stata('Data/DatafileR.dta')
 
 
 RICLPM <- '
